@@ -1,0 +1,105 @@
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.hero-image img {
+    width: 100%;
+    margin: 0;
+}
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.search-icon {
+    background-color: #E04E4E; 
+    color: white;
+    width: 98px; 
+    height: 50px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    border-radius: 14px; 
+}
+.search-icon:hover {
+    background-color: white;
+    color: #E04E4E;
+    border: solid 2px #E04E4E;
+}
+.nav-link.active {
+    color: #E04E4E !important; 
+}
+.nav-link {
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+}
+.nav-link:hover {
+    color: #E04E4E;
+    transform: scale(1.1);
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #E04E4E;
+    transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+    width: 100%; 
+}
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+.footer .social-icons a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+.footer .copyright {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.footer .row > div {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #2B384B;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+}
+.header-foot h5 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    position: relative;
+    left: 50px;
+}
+.header-foot p {
+    font-family: 'open sans', sans-serif;
+}
+.dino {
+    position: relative;
+    left: 50px;
+    font-size: 1rem;
+}
+.vismi {
+    position: relative;
+    top: 30px;
+}
